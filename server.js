@@ -41,7 +41,8 @@ server.listen(3000, () => {
   console.log("🚀 Serveur en écoute sur http://localhost:3000");
 });
 
-const API_URL = "http://localhost:3000/api/users";
+//const API_URL = "http://localhost:3000/api/users";
+const API_URL = "https://serveurnode.onrender.com/api/users";
 
 fetch(API_URL)
   .then(res => res.json())
